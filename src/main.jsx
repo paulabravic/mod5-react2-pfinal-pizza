@@ -8,7 +8,7 @@ import PizzasProvider from "./context/PizzaProvider";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/mod5-react2-pfinal-pizza">
       <PizzasProvider>
         <App />
       </PizzasProvider>
